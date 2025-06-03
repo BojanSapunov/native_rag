@@ -1,0 +1,18 @@
+# Core RAG components
+langchain>=0.1.16
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+
+# Ollama API client
+ollama>=0.1.6
+
+# Document loaders and utilities
+tqdm
+unstructured  # optional, for PDFs or complex formats
+pypdf         # for PDF support
+
+# Optional: for environment management
+python-dotenv
+
+# Optional: for frontend or experimentation
+streamlit  
