@@ -2,6 +2,7 @@
 langchain>=0.1.16
 faiss-cpu>=1.7.4
 sentence-transformers>=2.2.2
+langchain-community
 
 # Ollama API client
 ollama>=0.1.6
@@ -9,7 +10,7 @@ ollama>=0.1.6
 # Document loaders and utilities
 tqdm
 unstructured  # optional, for PDFs or complex formats
-pypdf         # for PDF support
+pypdf>=3.15.0         # for PDF support
 
 # Optional: for environment management
 python-dotenv

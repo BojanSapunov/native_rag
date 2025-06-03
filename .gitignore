@@ -1,1 +1,8 @@
+# Ignore all contents in the data/ and faiss_index/ folders
+data/*
+faiss_index/*
 venv/
+
+# Optional: keep the empty folders themselves
+!data/.gitkeep
+!faiss_index/.gitkeep
